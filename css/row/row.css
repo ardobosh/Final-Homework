@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+   }
+
+   .row{
+    position: relative;
+    top: 1280px;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+  }
+
+    .row__column{
+      position: relative;
+      /*float: left;*/
+      width: 25%;
+      }
+
+    .row__img{
+
+      }
+
+    .row__title h2{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: white;
+      margin-bottom: 16px;
+    }
+
+    .row__descr p{
+      font-family: 'Geogia'serif;
+      font-style: italic;
+      font-size: 18px;
+      letter-spacing: 2px;
+
+    }
