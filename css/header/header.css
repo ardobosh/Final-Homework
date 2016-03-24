@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+   }
+
+   #header{
+    top: 0px;
+    left: 0px;
+    height: 215px
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+.header__logo{
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.header__menu {
+    position: relative;
+    display: block;
+    width:500px;
+    margin-left: 33%;
+    text-align:center;
+    cursor:pointer;
+    list-style:none;
+    list-style-type: none;
+  }
+
+.header__menu li{
+    display: inline;
+    padding-left: 45px;
+    }
+
+.header__menu a {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    top: 35px;
+    display: inline-block;
+    }
+
+.header__menu a:hover {
+  text-decoration: underline;
+}
+
+.header__search {
+    position: relative;
+    float: right;
+    top: -3px;
+    right: 180px;
+    }
+
+    .header__menu-button {
+        position: relative;
+        float: right;
+        top: 0px;
+        right: 80px;
+        }
+
+.header__divider{
+    position: relative;
+    margin-left: 80px;
+    top: 105px;
+    width: 90%;
+    border: none;
+    height: 1px;
+    background-color: white;
+    opacity: 0.24;
+    }

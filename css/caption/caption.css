@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+   }
+
+   @font-face {
+       font-family: Montserrat;
+       src: url(fonts/Montserrat-SemiBold.ttf);
+       font-weight: 600;
+       font-style: normal;
+      }
+
+@font-face {
+      font-family: Montserrat;
+      src: url(fonts/Montserrat-Light.ttf);
+      font-weight: 300;
+      font-style: normal;
+      }
+
+      @font-face {
+            font-family: Playfair Display;
+            src: url(fonts/PlayfairDisplay-Regular.otf);
+            font-weight: normal;
+            font-style: normal;
+            }
+
+      .caption{
+          position: absolute;
+          top: 320px;
+          text-align: center;
+          vertical-align: center;
+          margin-left: 30%;
+
+      }
+
+      .caption h1{
+          font-family: 'Playfair Display', serif;
+          font-size: 140px;
+          font-weight: 400;
+          text-align: center;
+          color: white;
+          margin-bottom: 10px;
+      }
+
+      .caption__text{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 300;
+          text-align: center;
+          color: white;
+          margin-top: -19px;
+          margin-bottom: 100px;
+          line-height: 36px;
+      }
+
+      .caption__button{
+          position: relative;
+          top: -330px;
+          z-index: 200;
+      }
+
+      .caption__lines{
+          position: relative;
+          top: 10px;
+          z-index: 100;
+          margin-bottom: 30px;
+      }
+
+      .caption__button a{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: center;
+          letter-spacing: 2px;
+          color: white;
+          width: 160px;
+          height: 46px;
+          background-color: #da7074;
+          padding: 14px 44px;
+          border-radius: 23px;
+          text-decoration: none;
+      }
+
+      .caption__button a:hover{
+      background-color: #da4a5c;
+      }
+
+      .caption__play{
+          position: relative;
+      }
